@@ -7,6 +7,15 @@
 
 <div class="card">
     <div class="card-header">listar usuarios</div>
+        <a
+            name=""
+            id=""
+            class="btn btn-primary"
+            href="{% url 'crear' %}"
+            role="button"
+            >Agregar</a
+        >
+        
     <div class="card-body">
         <h4 class="card-title">usuarios</h4>
         <div
@@ -27,6 +36,21 @@
                         <td scope="row">1</td>
                         <td>imagen.jpg</td>
                         <td>Michael Alexander Sanchez Guerrero</td>
+                        <td> <a
+                            name=""
+                            id=""
+                            class="btn btn-info"
+                            href="{% url 'editar' %}"
+                            role="button"
+                            >Editar</a
+                        >
+                         | <a
+                         name=""
+                         id=""
+                         class="btn btn-danger"
+                         href="#"
+                         role="button"
+                         >Borrar </a> </td>
                     </tr>
                     <!-- <tr class="">
                         <td scope="row">Item</td>
