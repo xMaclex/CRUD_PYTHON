@@ -10,3 +10,7 @@ def nosotros(request):
 
 def usuarios(request):
     return render(request, 'usuarios/index.html')
+
+
+def crear_usuarios(request):
+    return render(request, 'usuarios/crear.html')
